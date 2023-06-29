@@ -4,7 +4,7 @@ module default {
 	}
 
 	type Movie {
-		title: str;
+		required title: str;
 		multi actors: Person;
 	}
 };
