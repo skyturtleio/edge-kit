@@ -4,5 +4,4 @@
 </script>
 
 <h1>About Page</h1>
-<h2>{data.other_message}</h2>
-<h3>{data.answer}</h3>
+<p>{data.answer}</p>
