@@ -3,5 +3,16 @@
 	export let data: PageData;
 </script>
 
-<h1>About Page</h1>
-<p>{data.answer}</p>
+<div class="testing">
+	<h1>About Page</h1>
+	<p>The answer is {data.answer}</p>
+</div>
+
+<style>
+	.testing {
+		background-color: aquamarine;
+	}
+	p {
+		font-family: 'Times New Roman', Times, serif;
+	}
+</style>
